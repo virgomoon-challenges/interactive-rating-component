@@ -1,8 +1,4 @@
 import './App.css';
-import TextRating from './Elements/TextRating';
-import ChoiceRating from './Elements/ChoiceRating';
-import ButtonSubmit from './Elements/ButtonSubmit';
-import Reply from './Components/Reply';
 import iconstar from './iconstar.svg';
 import thankyou from './illustration-thank-you.svg'
 import { useState } from 'react';
@@ -66,7 +62,6 @@ function App() {
         <div className='choice center' >
             {ratingButtons}
         </div>
-        {/* {selectedRating} */}
         <div className='button-container' >
         <button 
         disabled={selectedRating === null} className='button-submit'>SUBMIT</button>
