@@ -15,8 +15,6 @@ function App() {
 
   const handleRatingClicked = (rating)=>{
     setSelectedRating(rating)
-    console.log(rating)
-    console.log(selectedRating)
   }
 
   const handleSubmit = (e)=>{
@@ -26,6 +24,9 @@ function App() {
   }
   const titleText = "How did we do?"
   const mainText = "Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!"
+  const selected = `You selected ${selectedRating} out of 5`
+  const thanks = "Thank you!"
+  const outgoingText = "We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!"
 
   const arr = Array(5).fill().map((_,i) => i+1)
 
@@ -48,9 +49,9 @@ function App() {
     <div className="App">
       <div className="reply-container">
         <img src={thankyou} style={{height:150, width:'auto'}}/>
-        <div className="selected">You selected  out of 5</div>
-        <p className="title">Thank you!</p>
-        <p className="main-text">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+        <div className="selected">{selected}</div>
+        <p className="title">{thanks}</p>
+        <p className="main-text">{outgoingText}</p>
       </div>
     </div> 
 
@@ -65,7 +66,11 @@ function App() {
         <div className='choice center' >
             {ratingButtons}
         </div>
-        <ButtonSubmit />
+        {/* {selectedRating} */}
+        <div className='button-container' >
+        <button 
+        disabled={selectedRating === null} className='button-submit'>SUBMIT</button>
+    </div>
       </form>
     </div>
       

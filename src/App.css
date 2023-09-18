@@ -53,6 +53,11 @@
   color: hsl(0, 0%, 100%);
 }
 
+.num-button:active{
+  background-color: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+}
+
 .star{
   width: 40px;
   height: auto;
