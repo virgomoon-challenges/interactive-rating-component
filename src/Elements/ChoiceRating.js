@@ -7,7 +7,9 @@ function ChoiceRating() {
 
     const ratingButtons = arr.map((num)=>{
         return (
-            <button key={num} className='num-button' >
+            <button key={num} 
+            className='num-button' 
+            >
                 {num}
             </button>
         )
