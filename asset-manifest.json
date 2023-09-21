@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/virgomoon-challenges.github.io/interactive-rating-component/static/css/main.487c106f.css",
+    "main.js": "/virgomoon-challenges.github.io/interactive-rating-component/static/js/main.efe65335.js",
+    "static/media/illustration-thank-you.svg": "/virgomoon-challenges.github.io/interactive-rating-component/static/media/illustration-thank-you.d74a66b551b99ae110b5362ed63106bf.svg",
+    "index.html": "/virgomoon-challenges.github.io/interactive-rating-component/index.html",
+    "static/media/iconstar.svg": "/virgomoon-challenges.github.io/interactive-rating-component/static/media/iconstar.12766a8d207af861a70f92500634c8be.svg",
+    "main.487c106f.css.map": "/virgomoon-challenges.github.io/interactive-rating-component/static/css/main.487c106f.css.map",
+    "main.efe65335.js.map": "/virgomoon-challenges.github.io/interactive-rating-component/static/js/main.efe65335.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.487c106f.css",
+    "static/js/main.efe65335.js"
+  ]
+}
