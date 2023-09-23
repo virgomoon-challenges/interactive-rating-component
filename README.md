@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Project deployed here:
+
+[Interactive-rating-component](https://virgomoon-challenges.github.io/interactive-rating-component/)
+
 ## Available Scripts
 
 In the project directory, you can run:
