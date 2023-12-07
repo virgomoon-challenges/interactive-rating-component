@@ -54,7 +54,9 @@ function App() {
     : 
     <div className="App" onSubmit={handleSubmit}>
       <form className='container' >
-        <img src={iconstar} className='star' />
+        <div className='star-container' >
+          <img src={iconstar} className='star' />
+        </div>
         <div className='left'>
             <p className='title'>{titleText}</p>
             <p className='main-text'>{mainText}</p>

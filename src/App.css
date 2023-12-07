@@ -63,12 +63,19 @@
   color: hsl(0, 0%, 100%);
 }
 
-.star{
+.star-container{
+  display: flex;
   width: 40px;
-  height: auto;
+  height: 40px;
   border-radius: 100%;
-  padding: 10px;
+  justify-content: center;
+  align-items: center;
   background-color: hsl(213, 19%, 18%);
+}
+
+.star{
+  width: 20px;
+  height: 20px;
 }
 
 .center-pic{
