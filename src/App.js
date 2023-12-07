@@ -44,7 +44,7 @@ function App() {
     isSubmitted ? 
     <div className="App">
       <div className="reply-container">
-        <img src={thankyou} style={{height:150, width:'auto'}}/>
+        <img src={thankyou} style={{height:150, width:'auto'}} alt='a ball and credit card orbit a cell phone' />
         <div className="selected">{selected}</div>
         <p className="title">{thanks}</p>
         <p className="main-text">{outgoingText}</p>
@@ -55,7 +55,7 @@ function App() {
     <div className="App" onSubmit={handleSubmit}>
       <form className='container' >
         <div className='star-container' >
-          <img src={iconstar} className='star' />
+          <img src={iconstar} className='star' alt='star' />
         </div>
         <div className='left'>
             <p className='title'>{titleText}</p>
