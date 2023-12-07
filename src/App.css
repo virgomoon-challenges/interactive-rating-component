@@ -14,23 +14,23 @@
 .container {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   height: 45vh;
   width: 45vh;
   background-color: hsl(216, 12%, 8%);
   border-radius: 25px;
-  justify-content: center;
   padding: 25px;
 }
 
 .reply-container {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
   height: 45vh;
   width: 45vh;
   background-color: hsl(216, 12%, 8%);
   border-radius: 25px;
-  align-items: center;
-  justify-content: center;
   padding: 25px;
 }
 
@@ -118,7 +118,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex: auto;
+  /* flex: auto; */
 }
 
 .button-submit{
@@ -126,6 +126,7 @@
   color: hsl(0, 0%, 100%);;
   height: 35px;
   border-radius: 24px;
+  border: none;
   flex-grow: 1;
   
 }
@@ -133,6 +134,7 @@
 .button-submit:hover{
   background-color:  hsl(0, 0%, 100%);
   color: hsl(25, 97%, 53%);
+  cursor: pointer;
 }
 
 .App-logo {
